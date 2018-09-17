@@ -1,0 +1,228 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: linear-gradient(to bottom right,white,#bcbdc4);
+	height:100px;
+}
+
+.container
+{
+	width:100%;
+}
+.wrapper
+{
+	width: 900px;
+	margin: auto;
+}
+.dark
+{
+	background-color: #31353d;
+	color: white;
+}
+.light
+{
+	background-color:#ccc;
+}
+#top_left
+{
+	display: inline-block;
+	<!-- border: 1px solid red;-->
+}
+#top_right
+{
+	float: right;
+	<!--display: inline-block;-->
+	<!--border: 1px solid red;-->
+}
+#top_div
+{
+	height: 40px;
+	line-height: 40px;
+}
+#logo_left
+{
+	border: 2px solid grey;
+	box-shadow: 10px 5px 10px gray;
+	display: inline-block;
+	border-radius: 70px;
+}
+#logo_right
+{
+	float: right;
+	border:1px solid gray;
+	box-shadow: 5px 5px 10px gray;
+	margin-top:50px; 
+}
+#textstyle
+{
+	height: 30px;
+	border-radius: 8px;
+}
+#button
+{
+	background-color:green;
+	color: white;
+	padding: 7px;
+	border-radius: 8px;
+	width: 70px;
+	border:1px solid green;
+}
+#button:hover
+{
+	background-color:orange;
+	color: black;
+	font-size:12px;
+}
+#clear
+{
+	clear:both;
+}
+ul{
+	background-color:#330022;
+}
+ul:hover{
+	background-color: coral;
+}
+ol:hover{
+	background-color: #CCC;
+}
+ul li
+{
+	background-color:green;
+	width: 176.5px;
+	display: inline-block;
+	height: 39px;
+	line-height: 40px;
+	text-align: center;
+	border-radius:8px;
+	position: relative;
+}
+ol li
+{
+	background-color:Orange;
+	width: 170.5px;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius:6px;
+	position: relative;
+}
+ul li a
+{
+	color: white;
+	text-decoration: none;
+	font-family: 'Sofia';font-size: 16px;
+	display: block;
+}
+ol li a
+{
+	color: black;
+	text-decoration: none;
+	font-family: 'Sofia';font-size: 16px;
+	display: block;
+}
+ul li a:hover
+{ 
+	background-color:orange;
+	color: black;
+}
+ol li a:hover
+{ 
+	background-color:White;
+	color: black;
+}
+#outer_box{
+	width: 900px;
+	overflow: hidden;
+}
+#slider_image{
+	position: relative;
+	width: 2800px;
+	animation-name: pritam;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+@keyframes pritam{
+	0%{
+		left: 0px;
+	}
+	20.67%{
+		left: 0px;
+	}
+	100%{
+		left: -1102px;
+	}
+}
+#slider_image img
+{
+	width:251px;
+	height:250px;
+	border: 1px solid gray;
+	padding: 10px;
+	background-color: #eee;
+	box-shadow: 5px 5px 10px gray;
+	margin-top:10px;
+	float: left;
+}
+#menu ul ul
+{
+	position:absolute;
+	display: none;
+}
+#menu ul li:hover > ul
+{
+	display:block;
+}
+h1{
+	text-align:center;
+	color: #330000;
+	text-indent: 50px;
+}
+h1:hover
+{
+	color: SlateBlue;
+}
+p{
+	text-align:justify;
+	word-spacing: 6px;
+}
+#div_text{
+	background-color: white;
+	width: 260px;
+	margin: 3px;
+	display: inline-block;
+	margin-top: 15px;
+	box-shadow: 5px 5px 10px gray;
+	padding: 15px;
+    margin-bottom: 15px; 
+	word-spacing: 4px;
+	text-align:justify;
+}
+h3{
+	color: red;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
